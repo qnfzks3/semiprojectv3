@@ -16,7 +16,9 @@
                 <button type="button" class="btn btn-primary">회원가입</button>
             </div>
         </header>
-        <nav></nav>
+        <nav>
+
+        </nav>
         <div id="main"></div>
         <footer></footer>
     </div>
@@ -28,12 +30,47 @@
     <div class="modal" id="loginfrm" role="dialog" data-bs-backdrop="static">   <%--모달창  data-bs-backdrop="static" 은 다른 곳 누르면 안닫히게--%>
         <div class="modal-dialog">                     <%--모달 창이 뜨도록 만듬--%>
             <div class="modal-content">                   <%--모달 내용--%>
+
                 <div class="modal-header">
                     <h3>로그인</h3>
                     <button type="button" data-bs-dismiss="modal" class="btn btn-light">닫기</button>
                 </div>                                           <%--data-bs-dismiss="modal" 는 누르면 닫기 버튼이다. 지정--%>
 
-                <div class="modal-body"></div>
+
+                <div class="modal-body">
+                    <form name="lgnfrm" id="lgnfrm">
+                        <div class="row mb-2">  <%--mb-2 margin bottom -2  ,mt-2 margin top-2 --%>
+                            <label class="col-4 form-label text-end mt-2" for="userid">아이디</label><%--<p>와 <label>은 같다. - 연결시킬수있음--%>
+                            <div class="col-5">
+                                <input type="text" id="userid" name="userid" class="form-control border-danger"> <%--css는 class는 외형--%>
+
+                            </div>
+                        </div>
+
+
+                        <div class="row mb-2">
+                            <label class="col-4 form-label text-end mt-2" for="userid">비밀번호</label><%--<p>와 <label>은 같다. - 연결시킬수있음--%>
+                            <div class="col-5">
+                                <input type="text" id="passwd" name="passwd" class="form-control border-danger"> <%--css는 class는 외형--%>
+                            </div>
+                        </div>
+
+
+
+                        <div class="row">
+                            <label class="col-4 form-label text-end">&nbsp;</label><%--<p>와 <label>은 같다. - 연결시킬수있음--%>
+                            <div class="col-5">
+                               <div class="form-check">
+                                   <input type="checkbox" class="form-check-input">
+                                   <label class="form-check-label table-warning">로그인 상태 유지</label>
+                               </div>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+
                 <div class="modal-footer justify-content-center" >  <%--justify-content-center 가운데로 보내기--%>
                     <button type="button" class="btn btn-danger">로그인</button>
                     <button type="button" class="btn btn-warning">아이디/비밀번호 찾기</button>
@@ -42,6 +79,7 @@
             </div>
         </div>
     </div>
+
 
 
 
