@@ -62,7 +62,7 @@
                             <div class="col-5">
                                <div class="form-check">
                                    <input type="checkbox" class="form-check-input">
-                                   <label class="form-check-label table-warning">로그인 상태 유지</label>
+                                   <label class="form-check-label">로그인 상태 유지</label> <%--text-warning--%>
                                </div>
 
                             </div>
