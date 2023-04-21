@@ -12,15 +12,34 @@
         <header class="row"> <%--한줄 -안에 묶는다 row--%>
             <div class="col"><h1>Lorem Ipsum</h1></div> <%--col(컬럼)의 숫자만큼 한줄의 영역을 나눠준다.--%>
             <div class="col text-end">
-                <button type="button" class="btn btn-danger" data-bs-target="#loginfrm" data-bs-toggle="modal">로그인</button>
-                <button type="button" class="btn btn-primary">회원가입</button>
+                <button type="button" class="btn btn-danger mt-1" data-bs-target="#loginfrm" data-bs-toggle="modal">로그인</button>
+                <button type="button" class="btn btn-primary mt-1">회원가입</button>
             </div>
         </header>
-        <nav>
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
+            <ul class="navbar-nav nav-fill w-100">
+                <li class="nav-item">
+                    <a href="/intro.jsp" class="nav-link">프로젝트소개</a></li>
+                <li class="nav-item">
+                    <a href="/join/agree.jsp" class="nav-link">회원가입</a></li>
+                <li class="nav-item">
+                    <a href="/board/list.jsp" class="nav-link">게시판</a></li>
+                <li class="nav-item">
+                    <a href="/pds/list.jsp" class="nav-link">자료실</a></li>
+                <li class="nav-item">
+                    <a href="/gallery/list.jsp" class="nav-link">갤러리</a></li>
+                <li class="nav-item">
+                    <a href="/admin.jsp" class="nav-link">관리자</a></li>
+            </ul>
+        </nav>
+
 
         </nav>
         <div id="main"></div>
-        <footer></footer>
+        <footer>
+            <h6 class="cal text-end bg-light bg-dark bg-opacity-10 p-3"> <%--opacity는 투명도--%>
+                Copyright &copy; Lorem Ipsum 2023. qnfzks3.All rights Reserved. Created by Bootstrap 5.</h6>
+        </footer>
     </div>
 
 
@@ -42,16 +61,18 @@
                         <div class="row mb-2">  <%--mb-2 margin bottom -2  ,mt-2 margin top-2 --%>
                             <label class="col-4 form-label text-end mt-2" for="userid">아이디</label><%--<p>와 <label>은 같다. - 연결시킬수있음--%>
                             <div class="col-5">
-                                <input type="text" id="userid" name="userid" class="form-control border-danger"> <%--css는 class는 외형--%>
+                                <input type="text" id="userid" name="userid" class="form-control border-danger" placeholder="아이디를 입력해주세요!">
+                                <%--css는 class는 외형--%>
 
                             </div>
                         </div>
 
 
                         <div class="row mb-2">
-                            <label class="col-4 form-label text-end mt-2" for="userid">비밀번호</label><%--<p>와 <label>은 같다. - 연결시킬수있음--%>
+                            <label class="col-4 form-label text-end mt-2" for="userid" >비밀번호</label><%--<p>와 <label>은 같다. - 연결시킬수있음--%>
                             <div class="col-5">
-                                <input type="text" id="passwd" name="passwd" class="form-control border-danger"> <%--css는 class는 외형--%>
+                                <input type="text" id="passwd" name="passwd" class="form-control border-danger" placeholder="비밀번호를 입력해주세요!">
+                                <%--css는 class는 외형--%>
                             </div>
                         </div>
 
@@ -61,7 +82,7 @@
                             <label class="col-4 form-label text-end">&nbsp;</label><%--<p>와 <label>은 같다. - 연결시킬수있음--%>
                             <div class="col-5">
                                <div class="form-check">
-                                   <input type="checkbox" class="form-check-input">
+                                   <input type="checkbox" class="form-check-input" >
                                    <label class="form-check-label">로그인 상태 유지</label> <%--text-warning--%>
                                </div>
 
@@ -72,8 +93,9 @@
 
 
                 <div class="modal-footer justify-content-center" >  <%--justify-content-center 가운데로 보내기--%>
-                    <button type="button" class="btn btn-danger">로그인</button>
+                    <button type="button" class="btn btn-danger " >로그인</button>
                     <button type="button" class="btn btn-warning">아이디/비밀번호 찾기</button>
+
 
                 </div>
             </div>
