@@ -140,6 +140,7 @@
                     </div>
 
                 </div>
+
                 <div class="row">
                     <div class="col text-center">
                         <hr class="w-75 mx-auto"> <%--w는 너비  mx는 마진 x축 오토--%>
@@ -157,13 +158,43 @@
         </div>
 
         <div class="card card-body bg-light mt-5 mx-3">
-            <h3>실명확인 회원가입</h3>
+            <h3 class="mb-5">실명확인 회원가입</h3>
             <form id="checkfrm2" name="checkfrm2">
                 <div class="row">
                     <div class="col-5 offset-1">
-
+                        <div class="row mb-3">
+                            <label for="name2"
+                                   class="col-3 col-form-label text-warning text-end">이름</label>
+                            <div class="col-6">
+                                <input type="text" name="name" id="name2"
+                                       class="form-control border-warning"></div>
+                        </div>
+                        <div class="row mb-2">
+                            <label for="jumin1"
+                                   class="col-3 col-form-label text-warning text-end">주민번호</label>
+                            <div class="col-3">
+                                <input type="text" name="jumin1" id="jumin1"
+                                       class="form-control border-warning">
+                            </div>
+                            <div class="col-3">
+                                <input type="text" name="jumin2" id="jumin2"
+                                       class="form-control border-warning">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label class="col-3 col-form-label text-warning">&nbsp;</label>
+                            <div class="col-7 mt-2">
+                                <div class="form-check">
+                                    <input type="checkbox" id="chkjumin" name="chkjumin"
+                                           value="y" class="form-check-input">
+                                    <label for="chkjumin"
+                                           class="form-check-label text-warning">
+                                        주민번호 처리에 동의합니다</label>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-5" >
+                    <div class="col-5">
                         <ul>
                             <li>실명확인 회원가입시 공개 게시판 이용이 가능합니다.</li>
                             <li>타인의 주민등록번호를 임의로 사용하면 <span style="color:red;">'주민등록법'에 의해
@@ -173,27 +204,23 @@
                             <li>개인정보보호법에 따라 <span style="color:red;">이용 동의</span>를 받습니다.</li>
                         </ul>
                     </div>
-
                 </div>
                 <div class="row">
                     <div class="col text-center">
-                        <hr class="w-75 mx-auto"> <%--w는 너비  mx는 마진 x축 오토--%>
-                        <button type="button" id="check2btn" class="btn btn-primary">
-                            <i class="fas fa-check"></i>확인하기
-                        </button>
-                        <button type="button" id="concel2btn" class="btn btn-danger">
-                            <i class="fas fa-times"></i>취소하기
-                        </button>
+                        <hr class="w-75 mx-auto">
+                        <button type="button" id="check2btn"
+                                class="btn btn-primary">
+                            <i class="fas fa-check"></i> 확인하기</button>
+                        <button type="button" id="cancel2btn"
+                                class="btn btn-danger">
+                            <i class="fas fa-times"></i> 취소하기</button>
                     </div>
-
-
                 </div>
-
             </form>
-
-
-
         </div>
+
+
+
 
     </div>
 
