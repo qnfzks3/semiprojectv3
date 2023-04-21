@@ -428,20 +428,13 @@ Copyright © Kakao Corp. All rights reserved.
             </form>
         </div>
     </div>
-
-    <h2>가입인증</h2>
-    <small class="text-muted">
-        회원으로 가입하는 방법에는 2가지 방법이 있습니다.
-        아래에서 원하는 방법을 선택해주세요. <br>
-        입력하신 정보는 가입완료 전까지 본 사이트에 저장되지 않습니다.
-    </small>
-
-
-    </div>
     <footer class="mt-5 " >
-    <h6 class="cal text-end bg-light bg-dark bg-opacity-10 p-3"> <%--opacity는 투명도--%>
-        Copyright &copy; Lorem Ipsum 2023. qnfzks3.All rights Reserved. Created by Bootstrap 5.</h6>
-</footer>
+        <h6 class="cal text-end bg-light bg-dark bg-opacity-10 p-3"> <%--opacity는 투명도--%>
+            Copyright &copy; Lorem Ipsum 2023. qnfzks3.All rights Reserved. Created by Bootstrap 5.</h6>
+    </footer>
+
+
+</div>
 
 
 
