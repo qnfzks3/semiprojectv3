@@ -16,25 +16,46 @@
                 <button type="button" class="btn btn-primary mt-1">회원가입</button>
             </div>
         </header>
-        <nav class="navbar navbar-toggler=expand navbar-dark bg=dark">
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
             <ul class="navbar-nav nav-fill w-100">
-                <li class="nav-item"><a href="/intro.jsp" class="nav-link">프로젝트 소개 </a> </li>
-                <li class="nav-item"><a href="/join/agree.jsp" class="nav-link">회원가입</a></li>
-                <li class="nav-item"><a href="/board/list.jsp" class="nav-link">게시판</a></li>
-                <li class="nav-item"><a href="/pds/list.jsp" class="nav-link">자료실</a></li>
-                <li class="nav-item"><a href="/gellery/list.jsp" class="nav-link">갤러리</a></li>
-                <li class="nav-item"><a href="/admin.jsp" class="nav-link">관리자</a></li>
+                <li class="nav-item">
+                    <a href="/intro.jsp" class="nav-link">프로젝트소개</a></li>
+                <li class="nav-item">
+                    <a href="/join/agree.jsp" class="nav-link">회원가입</a></li>
+                <li class="nav-item">
+                    <a href="/board/list.jsp" class="nav-link">게시판</a></li>
+                <li class="nav-item">
+                    <a href="/pds/list.jsp" class="nav-link">자료실</a></li>
+                <li class="nav-item">
+                    <a href="/gallery/list.jsp" class="nav-link">갤러리</a></li>
+                <li class="nav-item">
+                    <a href="/admin.jsp" class="nav-link">관리자</a></li>
             </ul>
-
-
         </nav>
+
+
         <div id="main">
             <div class="row">
                 <div class="col-12">
                     <h1 class="display-3 text-center">초기밀 PROJECT 보안계획</h1></div>
-                <div class="col-8 offset-2">
-                    <img src="img/rabit.jpg">
+                <div class="col-6 offset-3">
+                    <img src="/rabit.jpg" class="img-fluid">
                 </div>
+            </div>
+
+            <div class="col-8 offset-2 text-center p-3">
+                <p>Nullam eget malesuada mauris. Ut sagittis, magna id facilisis porta, arcu felis laoreet lectus, eget feugiat est
+                    purus eu lorem. Nunc dictum, dui non commodo fermentum, dui turpis viverra erat, vitae vehicula ante quam vitae mi
+                    . Donec luctus congue massa, quis placerat augue semper eget. Pellentesque scelerisque libero ac sem porttitor
+                    placerat. In a nulla vitae nibh tincidunt vulputate. Nam iaculis rutrum arcu ut placerat.
+                    Cras et dui sit amet turpis interdum aliquam.
+                    Nullam sit amet nunc urna. Nulla id imperdiet erat. Morbi imperdiet eros lectus, vitae viverra est laoreet et.
+                    Mauris eu est feugiat, maximus nisi non, congue tellus. Nunc nec quam a sapien feugiat faucibus ut vel justo.
+                    Vivamus ac scelerisque leo, at porttitor metus. Cras pellentesque, tortor vel elementum cursus,
+                    neque magna viverra ipsum, quis tristique lectus lacus a tortor. Etiam fermentum orci faucibus, tempor nunc sit amet,
+                    scelerisque enim.
+                </p>
+                <div> <button class="btn btn-success">지금 바로 시작하기</button></div>
             </div>
 
 
