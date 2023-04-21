@@ -16,26 +16,30 @@
                 <button type="button" class="btn btn-primary mt-1">회원가입</button>
             </div>
         </header>
-        <nav class="navbar navbar-expand navbar-dark bg-dark">
+        <nav class="navbar navbar-toggler=expand navbar-dark bg=dark">
             <ul class="navbar-nav nav-fill w-100">
-                <li class="nav-item">
-                    <a href="/intro.jsp" class="nav-link">프로젝트소개</a></li>
-                <li class="nav-item">
-                    <a href="/join/agree.jsp" class="nav-link">회원가입</a></li>
-                <li class="nav-item">
-                    <a href="/board/list.jsp" class="nav-link">게시판</a></li>
-                <li class="nav-item">
-                    <a href="/pds/list.jsp" class="nav-link">자료실</a></li>
-                <li class="nav-item">
-                    <a href="/gallery/list.jsp" class="nav-link">갤러리</a></li>
-                <li class="nav-item">
-                    <a href="/admin.jsp" class="nav-link">관리자</a></li>
+                <li class="nav-item"><a href="/intro.jsp" class="nav-link">프로젝트 소개 </a> </li>
+                <li class="nav-item"><a href="/join/agree.jsp" class="nav-link">회원가입</a></li>
+                <li class="nav-item"><a href="/board/list.jsp" class="nav-link">게시판</a></li>
+                <li class="nav-item"><a href="/pds/list.jsp" class="nav-link">자료실</a></li>
+                <li class="nav-item"><a href="/gellery/list.jsp" class="nav-link">갤러리</a></li>
+                <li class="nav-item"><a href="/admin.jsp" class="nav-link">관리자</a></li>
             </ul>
-        </nav>
 
 
         </nav>
-        <div id="main"></div>
+        <div id="main">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="display-3 text-center">초기밀 PROJECT 보안계획</h1></div>
+                <div class="col-8 offset-2">
+                    <img src="img/rabit.jpg">
+                </div>
+            </div>
+
+
+
+        </div>
         <footer>
             <h6 class="cal text-end bg-light bg-dark bg-opacity-10 p-3"> <%--opacity는 투명도--%>
                 Copyright &copy; Lorem Ipsum 2023. qnfzks3.All rights Reserved. Created by Bootstrap 5.</h6>
