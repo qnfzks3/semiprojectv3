@@ -71,13 +71,26 @@
 
         <div class="card card-body bg-light mt-5 mx-3">
             <h3 class="mb-5">일반 회원</h3>
+            <form name="joinfrm" id="joinfrm">
+                <div class="row"></div>
+                <div class="row">
+                    <div class="col text-center">
+                        <hr class="w-75 mx-auto"> <%--w는 너비  mx는 마진 x축 오토--%>
+                        <button type="button" id="joinbtn" class="btn btn-primary">
+                            <i class="fas fa-check-circle"></i>입력완료
+                        </button> <%--fa-check-circle 버튼 안에 둥근 박스 를 넣어준다. --%>
+                        <button type="button" id="cancelbtn" class="btn btn-danger">
+                            <i class="fas fa-times-circle"></i>입력취소
+                        </button>
+                    </div>
+
+                </div>
+
+            </form>
 
 
         </div>
 
-
-
-        <%--우편번호 폼 모달--%>
 
         <script src="https://www.google.com/recaptcha/api.js"></script>
     </div>
